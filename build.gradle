@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'co.com.reactiveprograming'
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.7.3'
+    implementation group: 'io.projectreactor.netty', name: 'reactor-netty', version: '1.2.3'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.5.16'
+    implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+    implementation group: 'io.projectreactor.netty', name: 'reactor-netty', version: '1.2.3'
+    implementation group: 'io.projectreactor.netty', name: 'reactor-netty-http', version: '1.2.3'
+    // Test dependencies
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.11.4'
+    testImplementation group: 'io.projectreactor', name: 'reactor-test', version: '3.7.3'
+
+}
+
+test {
+    useJUnitPlatform()
+}

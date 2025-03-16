@@ -1,0 +1,6 @@
+
+q	java:S116"URename this field "MAX_EMAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»îÓ½8¶ü€§Ò2
+>
+java:S1170"!Make this final field static too.(»îÓ½8·ü€§Ò2
+W
+java:S1994 ":Move the update of "count" into this loop's update clause.(¾¸Û8Ãü€§Ò2

@@ -1,0 +1,5 @@
+
+G
+java:S2201"*The return value of "toList" must be used.(õŞ²ü8Íå¤¨Ò2
+C
+java:S3864"!Remove this use of "Stream.peek".(ñÑ²÷øÿÿÿÿ8Ïå¤¨Ò2
