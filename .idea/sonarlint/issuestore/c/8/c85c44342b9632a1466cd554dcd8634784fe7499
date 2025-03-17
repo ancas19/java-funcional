@@ -1,8 +1,0 @@
-
-V
-java:S1854":Remove this useless assignment to local variable "stream".(è÷†l8ÊÖ¹ĞÓ2
-G
-java:S1481"+Remove this unused "stream" local variable.(è÷†l8ÍÖ¹ĞÓ2
-X
-java:S1612"<Replace this lambda with method reference 'numbers::stream'.(Ê°°8ÇºĞÓ2
-X	java:S125"<This block of commented-out lines of code should be removed.(ÚƒË8­±¹ĞÓ2
